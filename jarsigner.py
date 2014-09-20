@@ -238,4 +238,3 @@ Example:
 
     jarsigner = JarSigner(storepass, storealias, jardir)
     jarsigner.run()
-x
