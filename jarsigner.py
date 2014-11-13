@@ -126,7 +126,6 @@ class JarSigner:
         manifest_content = [
             "Manifest-Version: 1.0",
             "Trusted-Library: true",
-            "Created-By: 1.6.0_37 (Sun Microsystems Inc.)",
             "Application-Name: %s" % app_name,
             "Permissions: all-permissions",
             "Caller-Allowable-Codebase: %s 127.0.0.1" % site_list,
